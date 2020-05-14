@@ -1,0 +1,198 @@
+.header{
+    height:70px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    background-color:rgb(233, 236, 220);
+}
+
+.options{
+    width:50%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+.option{
+    padding:10px 15px;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+.showcase{
+    background-image:url(https://images.pexels.com/photos/325521/pexels-photo-325521.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0px 20px;
+}
+
+.contact-show{
+    background-image:url(https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0px 20px;
+}
+
+.form-group{
+    position:relative;
+    margin:45px 0;
+}
+
+.form-input{
+    background:none;
+    background-color:white;
+    color:grey;
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:100%;
+    border:none;
+    border-radius:0;
+    border-bottom:1px solid grey;
+    margin:25px;
+}
+
+.default-button{
+    min-width:150px;
+    width:auto;
+    height:50px;
+    letter-spacing:0.5px;
+    padding: 0 35px 0 35px;
+    font-size:10px;
+    background-color:black;
+    color:white;
+    text-transform:uppercase;
+    cursor:pointer;
+}
+
+.default-button:hover{
+    background-color:white;
+    color:black;
+    border:1px solid black;
+}
+
+.homepage{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px 80px;
+    background-image:url(https://image1.apartmentfinder.com/i2/9vQ6FG-tDsRlUrhYZ3PnhaCgWwvMgFH8XidTCDJ3Ksg/111/evo-living-st-louis-mo-interior-photo.jpg);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0px 20px;
+}
+
+.directory{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    cursor:pointer;
+}
+
+.menu-item{
+    min-width:30%;
+    height:240px;
+    flex:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:1px solid black;
+    margin:0 7.5px 15px;
+    background-position:center;
+    background-size:cover;
+}
+
+.content{
+    height:90px;
+    padding:0 25px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border:1px solid black;
+}
+
+.title{
+    font-weight:bold;
+    margin-bottom:6px;
+    font-size:22px;
+    color:#4a4a4a;
+}
+
+.subtitle{
+    font-weight:lighter;
+    font-size:16px;
+}
+
+.about-container{
+    text-align:center;
+    letter-spacing:0.5px;
+    background-image:url(https://image1.apartmentfinder.com/i2/9vQ6FG-tDsRlUrhYZ3PnhaCgWwvMgFH8XidTCDJ3Ksg/111/evo-living-st-louis-mo-interior-photo.jpg);
+    background-size:cover;
+    background-position:center;
+    color:black;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0px 20px;
+    padding: 40px 55px 45px 55px;
+}
+
+.login-and-register{
+    opacity:0.8;
+}
+
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .auth-inner {
+    width: 450px;
+    margin: auto;
+    background: #ffffff;
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    opacity:0.9;
+  }
+
+.sell-form{
+    width: 450px;
+    margin: auto;
+    background:white;
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    opacity:0.9;
+}
+
+.hidden-to-home{
+    display:none;
+}

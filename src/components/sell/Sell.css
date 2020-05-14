@@ -1,0 +1,32 @@
+.sell-page{
+    background-image:url(https://images.pexels.com/photos/3769995/pexels-photo-3769995.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+
+.sell-form{
+    background-image:url(https://images.pexels.com/photos/1895566/pexels-photo-1895566.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size:cover;
+    background-position:center;
+    opacity:0.7;
+    margin-right:170px;
+}
+
+.card{
+    width: 18rem;
+    display:flex;
+    flex-direction:column;
+    padding: 20px;
+    margin:2px;
+    opacity:0.8;
+}
+
+.search{
+    color:white;
+    text-align:center;
+}
+
+/* .card:hover{
+    transform:scale(1.1);
+} */
